@@ -6,6 +6,8 @@ from utilities.BaseClass import BaseClass
 
 
 class TestHomePage(BaseClass):
+    def test_empty(self):
+        pass
 
     def test_formSubmission(self,getData):
         log = self.getLogger()
